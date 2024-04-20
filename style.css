@@ -29,8 +29,13 @@ html{
     width: 31%;
     height: 14%;
     border-radius: 1.5625rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
+}
+.container .fondo .section:hover{
+    background-color: rgba(0, 140, 255,0.2);
+    transform: scaleY(1.2);
+    transition: all 0.3s;
 }
 
 .container .fondo .section.one{
@@ -67,4 +72,10 @@ html{
 .container .fondo .section.seven{
     right: 5.5%;
     bottom: 12%;
+}
+.container .fondo .ocho img{
+    position: absolute;
+    width: 85px;
+    top: 44%;
+    left: 44%;
 }
